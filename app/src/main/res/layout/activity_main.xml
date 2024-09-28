@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Label for Nom -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_nom"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" /> <!-- Margin for space below -->
+
+    <EditText
+        android:id="@+id/edit_text_nom"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nom"
+        android:textColorHint="#808080"
+        android:inputType="text"
+        android:padding="10dp"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Label for Adresse -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_adresse"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" /> <!-- Margin for space below -->
+
+    <EditText
+        android:id="@+id/edit_text_adresse"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_adresse"
+        android:textColorHint="#808080"
+        android:inputType="textPostalAddress"
+        android:padding="10dp"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Label for Surface -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_surface"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" /> <!-- Margin for space below -->
+
+    <EditText
+        android:id="@+id/edit_text_surface"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_surface"
+        android:textColorHint="#808080"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Label for Pieces -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_pieces"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" /> <!-- Margin for space below -->
+
+    <EditText
+        android:id="@+id/edit_text_pieces"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_pieces"
+        android:textColorHint="#808080"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@drawable/box_background"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <CheckBox
+            android:id="@+id/check_box_piscine"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_piscine"
+            android:layout_marginEnd="8dp" /> <!-- Margin for space between CheckBox and Button -->
+
+        <Button
+            android:id="@+id/button_calculer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="@string/button_calculer"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+</LinearLayout>

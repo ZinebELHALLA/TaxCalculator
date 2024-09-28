@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calcul des impôts locaux</string>
+    <string name="hint_nom">Nom</string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_surface">Surface</string>
+    <string name="hint_pieces">Nombre de pièces</string>
+    <string name="hint_piscine">Piscine</string>
+    <string name="button_calculer">Calculer</string>
+    <string name="impot_base">Impôt de base: %.2f</string>
+    <string name="impot_supplementaire">Impôt supplémentaire: %.2f</string>
+    <string name="impot_total">Impôt total: %.2f</string>
+</resources>
