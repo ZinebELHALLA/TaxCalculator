@@ -18,7 +18,7 @@ Pour exécuter ce projet localement, suivez ces étapes :
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/YourUsername/TaxCalculator.git
+   git clone https://github.com/ZinebELHALLA/TaxCalculator.git
    ```
 2. Ouvrez le projet dans **Android Studio**.
 3. Laissez Android Studio configurer le projet et télécharger les dépendances nécessaires.
